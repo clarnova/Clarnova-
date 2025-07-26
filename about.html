@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarnova - Nettoyage à Laval</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fb;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        form {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clarnova</h1>
+        <p>Entreprise de nettoyage à Laval</p>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="accueil">
+        <h2>Bienvenue chez Clarnova</h2>
+        <p>Nous proposons des services de nettoyage professionnels pour maisons, bureaux, vitres et chantiers à Laval.</p>
+    </section>
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>✔ Nettoyage de maison</li>
+            <li>✔ Nettoyage de bureaux</li>
+            <li>✔ Nettoyage de vitres</li>
+            <li>✔ Nettoyage après chantier</li>
+        </ul>
+    </section>
+    <section id="apropos">
+        <h2>À propos de Clarnova</h2>
+        <p>Clarnova est une entreprise familiale qui place la qualité et la satisfaction client au cœur de ses priorités. Basés à Laval, nous intervenons rapidement et efficacement.</p>
+    </section>
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="mailto:clarnova.fr@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="Nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="Email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p><strong>Email :</strong> clarnova.fr@gmail.com</p>
+        <p><strong>Adresse :</strong> 7 rue Jean Macé, Laval 53000</p>
+        <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
+    </section>
+    <a href="https://wa.me/33612345678" class="whatsapp-button" target="_blank">💬 WhatsApp</a>
+    <footer>
+        <p>&copy; 2025 Clarnova. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
